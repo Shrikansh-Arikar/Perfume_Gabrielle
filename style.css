@@ -1,0 +1,94 @@
+body
+{
+  position: relative;
+  background-color: #f0e9e1;
+}
+
+.main_container
+{
+  background-color: #ffffff;
+  position: absolute;
+  left: 450px;
+  top: 125px;
+  width: 600px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.img-container
+{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+  width: 50%;
+}
+
+.perfume
+{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 5px;
+  top: 10px;
+  left: 330px;
+}
+
+.gabrielle
+{
+  position: absolute;
+  font-family: 'Fraunces', serif;
+  font-weight: bolder;
+  font-size: 2.2rem;
+  top: 20px;
+  left: 330px;
+  right: 20px;
+}
+
+.product-description
+{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  line-height: 1.2rem;
+  word-spacing: 3px;
+  color: grey;
+  top: 190px;
+  left: 330px;
+  right: 50px;
+}
+
+.discount
+{
+  position: absolute;
+  color: hsl(158, 36%, 37%);
+  font-size: 2.5rem;
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  top: 265px;
+  left: 330px;
+}
+
+.cut
+{
+  position: absolute;
+  color: hsl(158, 36%, 37%);
+  font-family: monospace;
+  top: 308px;
+  right: 70px;
+}
+
+.button
+{
+   background-color: hsl(158, 36%, 37%);
+   color: #ffffff;
+   font-size: 1rem;
+   font-family: 'Fraunces', serif;
+   border: 0px;
+   border-radius: 10px;
+   position: absolute;
+   height: 50px;
+   width: 240px;
+   bottom: 30px;
+   right: 30px;
+}
